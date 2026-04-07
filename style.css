@@ -1,0 +1,56 @@
+:root {
+    --color-background: #F6F2EF;
+    --color-black: #1A1A1A;
+    --color-white: #FFFFFF;
+    --color-text-primary: #7A756F;
+    --color-text-secondary: #4B4643;
+    --color-text-tertiary: #C9C4BC;
+    --color-gold: #C8A96E;
+
+    --font-primary: roboto slab;
+    --font-secondary: roboto;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    background-color: var(--color-background);
+}
+
+.page {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-family: var(--font-primary);
+    font-weight: 400;
+    font-size: 4rem;
+}
+
+p {
+    font-family: var(--font-secondary)
+}
+
+.pricing-title-heading {
+    margin-bottom: 6px;
+}
+
+.pricing-headline {
+    font-family: var(--font-primary);
+    font-style: italic;
+    color: var(--color-text-primary)
+}
